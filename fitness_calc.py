@@ -191,6 +191,7 @@ class FitnessCalculator:
             pulse_rate()
             rbc()
             wbc_k()
+            haemo()
             urine_monitor()
             get_cholestrol()
             platelet()
