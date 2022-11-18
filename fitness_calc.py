@@ -51,7 +51,7 @@ class FitnessCalculator:
 
          #Final_Labels
         Label(calculator,text='BMI (High/Medium/Low)',width=30,bg='grey',fg='white').grid(row=15,column=1,sticky='NWSWSE')
-        Label(calculator,text='BP (High/Medium/Low)',width=30,bg='grey',fg='white').grid(row=16,column=1,sticky='NWSWSE')
+        Label(calculator,text='BP (High/Normal)',width=30,bg='grey',fg='white').grid(row=16,column=1,sticky='NWSWSE')
         Label(calculator,text='Pulse Rate (High/Medium/Low)',width=30,bg='grey',fg='white').grid(row=17,column=1,sticky='NWSWSE')
         Label(calculator,text='RBC Count (High/Medium/Low)',width=30,bg='grey',fg='white').grid(row=18,column=1,sticky='NWSWSE')
         Label(calculator,text='WBC Count (High/Medium/Low)',width=30,bg='grey',fg='white').grid(row=19,column=1,sticky='NWSWSE')
@@ -61,7 +61,7 @@ class FitnessCalculator:
         Label(calculator,text='Cholestrol (High/Medium/Low)',width=30,bg='grey',fg='white').grid(row=23,column=1,sticky='NWSWSE')
 
         Label(calculator,text='BMI (High/Medium/Low)',width=30,fg='black',bg='gainsboro',textvariable=bmi_calculated).grid(row=15,column=2,sticky='NWSWSE')
-        Label(calculator,text='BP (High/Normal/Low)',width=30,fg='black',bg='gainsboro',textvariable=bp_calc).grid(row=16,column=2,sticky='NWSWSE')
+        Label(calculator,text='BP (High/Normal)',width=30,fg='black',bg='gainsboro',textvariable=bp_calc).grid(row=16,column=2,sticky='NWSWSE')
         Label(calculator,text='Pulse Rate (High/Medium/Low)',width=30,bg='gainsboro',fg='black',textvariable=pulse_calulated).grid(row=17,column=2,sticky='NWSWSE')
         Label(calculator,text='RBC Count (High/Medium/Low)',width=30,bg='gainsboro',fg='black',textvariable=rbc_final).grid(row=18,column=2,sticky='NWSWSE')
         Label(calculator,text='WBC Count (High/Medium/Low)',width=30,bg='gainsboro',fg='black',textvariable=wbc_final).grid(row=19,column=2,sticky='NWSWSE')
